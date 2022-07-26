@@ -13,7 +13,7 @@ router.get("/home", async (req, res) => {
     //we added /home to distinguish from the other endpoints
   console.log('/home')
   try {
-    res.json(items);
+    res.send(JSON.parse(items));
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
