@@ -11,9 +11,10 @@ const devicesData = require("./devicesData.json")
 router.get("/home", async (req, res) => {
   // router.get("/home", async (req, res) => {
     //we added /home to distinguish from the other endpoints
-  console.log('/home')
+  console.log('devicesData')
+  // console.log(JSON.stringify(items))
   try {
-    res.send(JSON.parse(items));
+    res.json(devicesData);
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
