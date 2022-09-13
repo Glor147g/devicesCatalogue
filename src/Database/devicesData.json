@@ -3,36 +3,42 @@
 	{ "deviceid":0,
 	"name": "Echo Studio",
 	"description": "A smart device that is in very good condition. ",
+	"manufactured": " 2018",
 	"rating": "good condition"
 	},
 
 	{ "deviceid":1,
 	"name": "Arlo Pro 4",
 	"description": "A smart lock device that protects your home. ",
+	"manufactured": " 2022",
 	"rating": "good condition"
 	},
 
 	{ "deviceid":2,
 	"name": "Google Nest",
 	"description": "A smart device looks after your home. ",
+	"manufactured": " 2018",
 	"rating": "good condition"
 	},
 
 	{ "deviceid":3,
 	"name": "Amazon Echo",
 	"description": "A low-fi smart device that connects to internet. ",
+	"manufactured": " 2019",
 	"rating": "good condition"
 	},
 
 	{ "deviceid":4,
 	"name": "Iphone",
 	"description": "A smart device that connects to everything. ",
+	"manufactured": " 2017",
 	"rating": "good condition"
 	},
 
 	{ "deviceid":5,
 	"name": "Apple Watch",
 	"description": "A superlative smart device that connects to your body. ",
+	"manufactured": " 2021",
 	"rating": "good condition"
 	}
 ]
